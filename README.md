@@ -1,7 +1,7 @@
 # PROJETO - TESTIMONIALS GRID SECTION MAIN
 
 ## Objetivo:
-- Criar o layout de uma página retirada do site https://www.frontendmentor.io para fixar e praticar o conteúdo e os conceitos em HTML e CSS
+- Criar o layout de uma página retirada do site https://www.frontendmentor.io para fixar e praticar o conteúdo e os conceitos em HTML, CSS e JavaScript
 
 ## Tecnologias Utilizadas:
 - HTML
