@@ -1,0 +1,27 @@
+@media(max-width:420px){
+
+.container-avaliacao,
+.container-enviado{
+    max-width: 350px;
+}
+
+.titulo{
+    font-size: 2.4rem;
+}
+
+.texto{
+    font-size: 1.2rem;
+}
+
+.container-avaliacao .notas .nota{
+    width: 40px;
+    height: 40px;
+    font-size: 1.3rem;
+    padding: 12px;
+}
+
+.container-avaliacao .botao-enviar{
+    width: 290px;
+}
+
+}

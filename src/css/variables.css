@@ -1,0 +1,9 @@
+:root{
+     --cor-do-titulo:hsl(0, 0%, 100%);
+     --cor-do-botao: hsl(25, 97%, 53%);
+     --cor-de-fundo: hsl(216, 12%, 8%);
+     --cor-da-caixa: hsl(213, 19%, 18%);
+     --cor-do-circulo: hsl(215, 18%, 22%);
+     --cor-do-texto: hsl(217, 12%, 63%);
+     --cor-selecionada: hsl(216, 12%, 54%)
+}

@@ -1,0 +1,118 @@
+main{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-de-fundo);
+}
+
+.container-avaliacao,
+.container-enviado{
+    background-color: var(--cor-da-caixa);
+    max-width: 412px;
+    height: 418px;
+    padding: 32px;
+    border-radius: 30px;
+}
+
+.titulo{
+    font-size: 2.8rem;
+    color: var(--cor-do-titulo);
+    font-weight: 700;
+    margin-top: 31px;
+}
+
+.texto{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: var(--cor-do-texto);
+    margin-top: 10px;
+}
+
+.container-avaliacao .estrela{
+    padding: 15px;
+    background-color: var(--cor-do-circulo);
+    border-radius: 50%;
+}
+
+.container-avaliacao .notas{
+    display: flex;
+    align-items: center;
+    gap: 23px
+}
+
+.container-avaliacao .notas .nota{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--cor-do-circulo);
+    text-align: center;
+    padding: 15px;
+    font-size: 1.6rem;
+    margin-top: 25px;
+    cursor: pointer;
+    color: var(--cor-do-titulo);
+    transition: 0.3s ease-in-out;
+}
+
+.container-avaliacao .botao-enviar{
+    width: 340px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin-top: 33px;
+    border: none;
+    color: var(--cor-do-titulo);
+    background-color: var(--cor-do-botao);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container-avaliacao .botao-enviar:hover{
+    background-color: var(--cor-do-titulo);
+    color: var(--cor-do-botao);
+}
+
+.container-avaliacao .notas .nota:hover{
+    background-color: var(--cor-do-botao);
+}
+
+.container-avaliacao .notas .nota.selecionada{
+    background-color: var(--cor-selecionada);
+}
+
+.container-enviado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-enviado .imagem-envio{
+margin-top: 15px;
+}
+
+.container-enviado .frase-nota{
+    color: var(--cor-do-botao);
+    font-size: 1.5rem;
+    background-color: var(--cor-do-circulo);
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-top: 35px;
+}
+
+.container-enviado .texto{
+    text-align: center;
+}
+
+.container-enviado{
+    padding: 35px;
+}
+
+.esconder{
+    display: none;
+}
+
