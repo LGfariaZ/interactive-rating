@@ -17,8 +17,12 @@ notas.forEach(function(nota){
 })
 
 botaoEnviar.addEventListener("click", function(){
-    
+
     const notalSelecionadaAtual = document.querySelector(".selecionada");
+
+    if(notalSelecionadaAtual.value == ""){
+        return;
+    }
 
     containerAvaliacao.classList.add("esconder");
     containerEnviado.classList.remove("esconder");
